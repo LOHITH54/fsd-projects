@@ -49,11 +49,17 @@
               background: #f1f1f1;
               border-radius: 10px;
               padding: 10px;
+              transition: transform  ease;
+             }
             
             .day .minmax {
              font-size: 5px;
             color: grey;
             }
+            .day:hover {
+              transform: translateY(-5px);
+              background: #e0fae9;
+}
         }
         </style>
      </head>
@@ -62,7 +68,7 @@
 
         <div class="weather-card">
           <div class="location">📍bellary</div>
-          <div class="temp">22°C</div>
+          <div class="temp">30°C</div>
           <div class="weather-icon">🌞</div>
           <div class="condition">Sunny</div>
           <div class="forecast">
